@@ -1,7 +1,10 @@
-
+import UseState from './components/useStateComponent'
 const App = () => {
   return (
-    <div>Hello World</div>
+    <div>
+      <h1>useState</h1>
+      <UseState />
+    </div>
   )
 }
 
